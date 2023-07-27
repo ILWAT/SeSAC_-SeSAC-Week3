@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0936012A7232EC00FDF0D1 /* StudyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936002A7232EC00FDF0D1 /* StudyTableViewController.swift */; };
+		DE0936032A72497A00FDF0D1 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936022A72497A00FDF0D1 /* Extension.swift */; };
+		DE0936052A724CB700FDF0D1 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0936042A724CB700FDF0D1 /* Setting.storyboard */; };
+		DE0936082A7272C500FDF0D1 /* ConcentrateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936072A7272C500FDF0D1 /* ConcentrateTableViewController.swift */; };
+		DE09360A2A72A7CD00FDF0D1 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936092A72A7CD00FDF0D1 /* SettingTableViewController.swift */; };
 		DE35B8792A72032E005ACF3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE35B8782A72032E005ACF3E /* AppDelegate.swift */; };
 		DE35B87B2A72032E005ACF3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE35B87A2A72032E005ACF3E /* SceneDelegate.swift */; };
 		DE35B87D2A72032E005ACF3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE35B87C2A72032E005ACF3E /* ViewController.swift */; };
 		DE35B8802A72032E005ACF3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE35B87E2A72032E005ACF3E /* Main.storyboard */; };
 		DE35B8822A72032F005ACF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE35B8812A72032F005ACF3E /* Assets.xcassets */; };
 		DE35B8852A72032F005ACF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE35B8832A72032F005ACF3E /* LaunchScreen.storyboard */; };
+		DE35B88D2A720FF2005ACF3E /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE35B88C2A720FF2005ACF3E /* ToDoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE0936002A7232EC00FDF0D1 /* StudyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyTableViewController.swift; sourceTree = "<group>"; };
+		DE0936022A72497A00FDF0D1 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		DE0936042A724CB700FDF0D1 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		DE0936072A7272C500FDF0D1 /* ConcentrateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrateTableViewController.swift; sourceTree = "<group>"; };
+		DE0936092A72A7CD00FDF0D1 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
 		DE35B8752A72032E005ACF3E /* SeSAC Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeSAC Week3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE35B8782A72032E005ACF3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE35B87A2A72032E005ACF3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,7 @@
 		DE35B8812A72032F005ACF3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE35B8842A72032F005ACF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE35B8862A72032F005ACF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE35B88C2A720FF2005ACF3E /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE0936062A72558500FDF0D1 /* Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				DE0936072A7272C500FDF0D1 /* ConcentrateTableViewController.swift */,
+				DE0936042A724CB700FDF0D1 /* Setting.storyboard */,
+				DE0936092A72A7CD00FDF0D1 /* SettingTableViewController.swift */,
+			);
+			path = Assignment;
+			sourceTree = "<group>";
+		};
 		DE35B86C2A72032E005ACF3E = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +78,14 @@
 		DE35B8772A72032E005ACF3E /* SeSAC Week3 */ = {
 			isa = PBXGroup;
 			children = (
+				DE0936062A72558500FDF0D1 /* Assignment */,
+				DE35B88C2A720FF2005ACF3E /* ToDoTableViewController.swift */,
 				DE35B8782A72032E005ACF3E /* AppDelegate.swift */,
 				DE35B87A2A72032E005ACF3E /* SceneDelegate.swift */,
 				DE35B87C2A72032E005ACF3E /* ViewController.swift */,
 				DE35B87E2A72032E005ACF3E /* Main.storyboard */,
+				DE0936022A72497A00FDF0D1 /* Extension.swift */,
+				DE0936002A7232EC00FDF0D1 /* StudyTableViewController.swift */,
 				DE35B8812A72032F005ACF3E /* Assets.xcassets */,
 				DE35B8832A72032F005ACF3E /* LaunchScreen.storyboard */,
 				DE35B8862A72032F005ACF3E /* Info.plist */,
@@ -128,6 +154,7 @@
 				DE35B8852A72032F005ACF3E /* LaunchScreen.storyboard in Resources */,
 				DE35B8822A72032F005ACF3E /* Assets.xcassets in Resources */,
 				DE35B8802A72032E005ACF3E /* Main.storyboard in Resources */,
+				DE0936052A724CB700FDF0D1 /* Setting.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +165,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE09360A2A72A7CD00FDF0D1 /* SettingTableViewController.swift in Sources */,
 				DE35B87D2A72032E005ACF3E /* ViewController.swift in Sources */,
+				DE35B88D2A720FF2005ACF3E /* ToDoTableViewController.swift in Sources */,
+				DE0936012A7232EC00FDF0D1 /* StudyTableViewController.swift in Sources */,
+				DE0936032A72497A00FDF0D1 /* Extension.swift in Sources */,
 				DE35B8792A72032E005ACF3E /* AppDelegate.swift in Sources */,
+				DE0936082A7272C500FDF0D1 /* ConcentrateTableViewController.swift in Sources */,
 				DE35B87B2A72032E005ACF3E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
