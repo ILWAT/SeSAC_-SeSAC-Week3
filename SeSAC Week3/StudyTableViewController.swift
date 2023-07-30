@@ -29,7 +29,24 @@ class StudyTableViewController: UITableViewController {
     //섹션의 타이틀을 지정하는 함수
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
         
-        return section == 0 ? "첫번째 섹션" : "두번째 섹션"
+//        return section == 0 ? "첫번째 섹션" : "두번째 섹션"
+        //
+        if section == 0 {
+            return "첫번째 섹션"
+        } else if section == 1{
+            return "두번째 섹션"
+        }
+        
+        /* 예외처리 방법 : else로 처리하거나 조건문을 설정하고 함수 마지막에 return을 사용하거나 해서 처리하면 됨 */
+        
+//        else if section == 2 {
+//            return "세번째 섹션"
+//        } else {
+//            return nil //Optional(String)이기 때문에 nil 리턴도 가능
+//        }
+        
+
+        return nil
     }
     
     //1. 섹션별 셀 갯수(필수)

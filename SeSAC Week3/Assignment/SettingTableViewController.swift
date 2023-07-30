@@ -35,7 +35,7 @@ class SettingTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "settingCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "settingCell", for: indexPath)
         
         switch indexPath.section {
         case 0: return setTableViewCellUI(cell, settingGeneral[indexPath.row])

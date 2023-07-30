@@ -12,6 +12,14 @@
 		DE0936052A724CB700FDF0D1 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE0936042A724CB700FDF0D1 /* Setting.storyboard */; };
 		DE0936082A7272C500FDF0D1 /* ConcentrateTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936072A7272C500FDF0D1 /* ConcentrateTableViewController.swift */; };
 		DE09360A2A72A7CD00FDF0D1 /* SettingTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936092A72A7CD00FDF0D1 /* SettingTableViewController.swift */; };
+		DE09360C2A7346C100FDF0D1 /* BuyLIstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09360B2A7346C100FDF0D1 /* BuyLIstTableViewController.swift */; };
+		DE09360E2A73505000FDF0D1 /* CustomTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09360D2A73505000FDF0D1 /* CustomTableViewController.swift */; };
+		DE0936102A73527B00FDF0D1 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09360F2A73527B00FDF0D1 /* CustomTableViewCell.swift */; };
+		DE0936142A7389C500FDF0D1 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936132A7389C500FDF0D1 /* ToDo.swift */; };
+		DE0936162A738A1C00FDF0D1 /* ToDoInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936152A738A1C00FDF0D1 /* ToDoInformation.swift */; };
+		DE0936182A73A55500FDF0D1 /* BuyListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936172A73A55500FDF0D1 /* BuyListData.swift */; };
+		DE09361C2A73AAF400FDF0D1 /* BuyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09361B2A73AAF400FDF0D1 /* BuyListTableViewCell.swift */; };
+		DE0936292A73C76000FDF0D1 /* BuyListUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE0936282A73C76000FDF0D1 /* BuyListUIView.swift */; };
 		DE35B8792A72032E005ACF3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE35B8782A72032E005ACF3E /* AppDelegate.swift */; };
 		DE35B87B2A72032E005ACF3E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE35B87A2A72032E005ACF3E /* SceneDelegate.swift */; };
 		DE35B87D2A72032E005ACF3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE35B87C2A72032E005ACF3E /* ViewController.swift */; };
@@ -27,6 +35,14 @@
 		DE0936042A724CB700FDF0D1 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		DE0936072A7272C500FDF0D1 /* ConcentrateTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrateTableViewController.swift; sourceTree = "<group>"; };
 		DE0936092A72A7CD00FDF0D1 /* SettingTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewController.swift; sourceTree = "<group>"; };
+		DE09360B2A7346C100FDF0D1 /* BuyLIstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyLIstTableViewController.swift; sourceTree = "<group>"; };
+		DE09360D2A73505000FDF0D1 /* CustomTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewController.swift; sourceTree = "<group>"; };
+		DE09360F2A73527B00FDF0D1 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		DE0936132A7389C500FDF0D1 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		DE0936152A738A1C00FDF0D1 /* ToDoInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoInformation.swift; sourceTree = "<group>"; };
+		DE0936172A73A55500FDF0D1 /* BuyListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListData.swift; sourceTree = "<group>"; };
+		DE09361B2A73AAF400FDF0D1 /* BuyListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListTableViewCell.swift; sourceTree = "<group>"; };
+		DE0936282A73C76000FDF0D1 /* BuyListUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyListUIView.swift; sourceTree = "<group>"; };
 		DE35B8752A72032E005ACF3E /* SeSAC Week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeSAC Week3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE35B8782A72032E005ACF3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE35B87A2A72032E005ACF3E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +71,10 @@
 				DE0936072A7272C500FDF0D1 /* ConcentrateTableViewController.swift */,
 				DE0936042A724CB700FDF0D1 /* Setting.storyboard */,
 				DE0936092A72A7CD00FDF0D1 /* SettingTableViewController.swift */,
+				DE09360B2A7346C100FDF0D1 /* BuyLIstTableViewController.swift */,
+				DE0936172A73A55500FDF0D1 /* BuyListData.swift */,
+				DE09361B2A73AAF400FDF0D1 /* BuyListTableViewCell.swift */,
+				DE0936282A73C76000FDF0D1 /* BuyListUIView.swift */,
 			);
 			path = Assignment;
 			sourceTree = "<group>";
@@ -84,6 +104,10 @@
 				DE35B87A2A72032E005ACF3E /* SceneDelegate.swift */,
 				DE35B87C2A72032E005ACF3E /* ViewController.swift */,
 				DE35B87E2A72032E005ACF3E /* Main.storyboard */,
+				DE0936132A7389C500FDF0D1 /* ToDo.swift */,
+				DE09360D2A73505000FDF0D1 /* CustomTableViewController.swift */,
+				DE0936152A738A1C00FDF0D1 /* ToDoInformation.swift */,
+				DE09360F2A73527B00FDF0D1 /* CustomTableViewCell.swift */,
 				DE0936022A72497A00FDF0D1 /* Extension.swift */,
 				DE0936002A7232EC00FDF0D1 /* StudyTableViewController.swift */,
 				DE35B8812A72032F005ACF3E /* Assets.xcassets */,
@@ -165,14 +189,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE09360C2A7346C100FDF0D1 /* BuyLIstTableViewController.swift in Sources */,
 				DE09360A2A72A7CD00FDF0D1 /* SettingTableViewController.swift in Sources */,
+				DE0936102A73527B00FDF0D1 /* CustomTableViewCell.swift in Sources */,
+				DE0936292A73C76000FDF0D1 /* BuyListUIView.swift in Sources */,
 				DE35B87D2A72032E005ACF3E /* ViewController.swift in Sources */,
 				DE35B88D2A720FF2005ACF3E /* ToDoTableViewController.swift in Sources */,
+				DE0936162A738A1C00FDF0D1 /* ToDoInformation.swift in Sources */,
+				DE09360E2A73505000FDF0D1 /* CustomTableViewController.swift in Sources */,
 				DE0936012A7232EC00FDF0D1 /* StudyTableViewController.swift in Sources */,
 				DE0936032A72497A00FDF0D1 /* Extension.swift in Sources */,
 				DE35B8792A72032E005ACF3E /* AppDelegate.swift in Sources */,
+				DE0936182A73A55500FDF0D1 /* BuyListData.swift in Sources */,
 				DE0936082A7272C500FDF0D1 /* ConcentrateTableViewController.swift in Sources */,
+				DE0936142A7389C500FDF0D1 /* ToDo.swift in Sources */,
 				DE35B87B2A72032E005ACF3E /* SceneDelegate.swift in Sources */,
+				DE09361C2A73AAF400FDF0D1 /* BuyListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
