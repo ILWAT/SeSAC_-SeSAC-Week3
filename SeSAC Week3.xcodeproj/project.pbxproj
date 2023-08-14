@@ -27,6 +27,7 @@
 		DE35B8822A72032F005ACF3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE35B8812A72032F005ACF3E /* Assets.xcassets */; };
 		DE35B8852A72032F005ACF3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE35B8832A72032F005ACF3E /* LaunchScreen.storyboard */; };
 		DE35B88D2A720FF2005ACF3E /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE35B88C2A720FF2005ACF3E /* ToDoTableViewController.swift */; };
+		DE8261E02A79E7CA006B6AF8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8261DF2A79E7C9006B6AF8 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		DE35B8842A72032F005ACF3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE35B8862A72032F005ACF3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE35B88C2A720FF2005ACF3E /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		DE8261DF2A79E7C9006B6AF8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				DE35B87C2A72032E005ACF3E /* ViewController.swift */,
 				DE35B87E2A72032E005ACF3E /* Main.storyboard */,
 				DE0936132A7389C500FDF0D1 /* ToDo.swift */,
+				DE8261DF2A79E7C9006B6AF8 /* DetailViewController.swift */,
 				DE09360D2A73505000FDF0D1 /* CustomTableViewController.swift */,
 				DE0936152A738A1C00FDF0D1 /* ToDoInformation.swift */,
 				DE09360F2A73527B00FDF0D1 /* CustomTableViewCell.swift */,
@@ -190,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE09360C2A7346C100FDF0D1 /* BuyLIstTableViewController.swift in Sources */,
+				DE8261E02A79E7CA006B6AF8 /* DetailViewController.swift in Sources */,
 				DE09360A2A72A7CD00FDF0D1 /* SettingTableViewController.swift in Sources */,
 				DE0936102A73527B00FDF0D1 /* CustomTableViewCell.swift in Sources */,
 				DE0936292A73C76000FDF0D1 /* BuyListUIView.swift in Sources */,

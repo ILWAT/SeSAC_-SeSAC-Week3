@@ -9,7 +9,7 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
     
-    static let identifier = "CusomTableViewCell"
+    static let identifier = "CustomTableViewCell"
     
     @IBOutlet weak var checkImgView: UIImageView!
     @IBOutlet weak var baseBackgroundView: UIView!
@@ -18,9 +18,21 @@ class CustomTableViewCell: UITableViewCell {
     @IBOutlet weak var mainTitleLabel: UILabel!
     @IBOutlet weak var subTitleLabel: UILabel!
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+        mainTitleLabel.font = .boldSystemFont(ofSize: 17)
+        mainTitleLabel.textColor = .brown
+    }
+    
+    
     func configureCell(row: ToDo){
-        self.mainTitleLabel.text = row.main
-        self.subTitleLabel.text = row.sub
+        mainTitleLabel.text = row.main
+        
+        
+        baseBackgroundView.backgroundColor = row.color
+        
+        subTitleLabel.text = row.sub
         
         if row.done{
             self.checkImgView.image = UIImage(systemName: "checkmark.square.fill")

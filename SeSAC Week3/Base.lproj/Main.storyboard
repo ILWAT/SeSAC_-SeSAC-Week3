@@ -382,9 +382,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="HJM-kK-TEj">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="aBI-t5-a06" id="YRp-Jl-zdV"/>
+                            </connections>
+                        </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomCell" rowHeight="108" id="cvL-GO-PnQ" customClass="CustomTableViewCell" customModule="SeSAC_Week3" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="50" width="393" height="108"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="CustomTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CustomTableViewCell" rowHeight="108" id="cvL-GO-PnQ" customClass="CustomTableViewCell" customModule="SeSAC_Week3" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="94" width="393" height="108"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cvL-GO-PnQ" id="Z2R-0u-1Zd">
                                     <rect key="frame" x="0.0" y="0.0" width="393" height="108"/>
@@ -470,10 +478,28 @@
                             <outlet property="delegate" destination="aBI-t5-a06" id="0zL-XV-doB"/>
                         </connections>
                     </tableView>
+                    <connections>
+                        <outlet property="searchBar" destination="HJM-kK-TEj" id="CTb-Cc-Kuc"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O4e-bU-ehj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5721.3740458015263" y="-3.5211267605633805"/>
+        </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="DtS-9m-Hre">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" id="HNK-Ij-hYs" customClass="DetailViewController" customModule="SeSAC_Week3" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wFa-3v-6uy">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="70M-Yd-wR1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zVC-6w-s5O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6485" y="-6"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Mgz-tR-bBY">
